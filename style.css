@@ -1,0 +1,19 @@
+body{
+    color: #242c39;
+}
+
+.label{
+    margin-top: 50px;
+    border: #242c39 1px solid;
+    border-radius: 5px;
+    padding: 50px;
+    width: 950px;
+}
+
+.form_cad{
+    margin-top: 40px;
+}
+
+hr{
+    color: #f2b12c;
+}
