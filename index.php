@@ -14,7 +14,7 @@
             <h3>Cadastro de Visitante</h3>
         </div>
 
-    <form action="" method="POST" class="form_cad">
+    <form action="_inserir_visitante.php" method="POST" class="form_cad">
 
         <div class="row">
             <div class="mb-3 col-md-6">
