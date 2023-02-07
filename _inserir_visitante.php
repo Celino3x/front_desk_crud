@@ -19,7 +19,7 @@ $diretorio = "fotos_visitantes/";
 
 move_uploaded_file($_FILES['foto_visitante']['tmp_name'], $diretorio.$new_name);
 
-$sql = "INSERT INTO `cad_visitante`( `nome_visitante`, `cpf_visitante`, `rg_visitante`, `empresa_visitante`, `telefone_visitante`, `obs_visitante`, `foto_visitante`) VALUES ('$nome_visitante', '$cpf_visitante', '$rg_visitante', '$empresa_visitante', '$telefone_visitante', '$obs_visitante', '$foto_visitante')";
+$sql = "INSERT INTO `cad_visitante`( `nome_visitante`, `cpf_visitante`, `rg_visitante`, `empresa_visitante`, `telefone_visitante`, `obs_visitante`, `foto_visitante`) VALUES ('$nome_visitante', '$cpf_visitante', '$rg_visitante', '$empresa_visitante', '$telefone_visitante', '$obs_visitante', '$new_name')";
 
 $inserir = mysqli_query($conexao, $sql);
 
