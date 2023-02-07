@@ -17,3 +17,14 @@ body{
 hr{
     color: #f2b12c;
 }
+
+.tbVisit{
+    margin-top: 50px;
+}
+
+.foto_visitante{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50% 50% 50% 50% / 51% 50% 50% 49%  ;
+}

@@ -28,6 +28,6 @@ $inserir = mysqli_query($conexao, $sql);
 <div class="container">
     <h3>Cadastrado</h3>
     <a href="Voltar" class="btn btn-sm btn-warning">Voltar</a>
-    <a href="Consultar" class="btn btn-sm brn-secondary">Consultar</a>
+    <a href="_consultar_visitante.php" class="btn btn-sm brn-secondary">Consultar</a>
     </div>
 <?php
