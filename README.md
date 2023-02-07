@@ -1,12 +1,27 @@
-# front_desk_crud
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
+# Front Desk CRUD
 
 CRUD to meet demands of a reception.
 This project will use PHP, MySQL, JavaScript, HTML5 and CSS3. With Bootstrap Framework.
 
 
-![Tela de cadastro de Visitante](https://user-images.githubusercontent.com/8905515/216396499-a71035e6-733c-45a6-b31a-8bfbbc75d891.PNG)
+## Autores
+
+- [@celino3x](https://www.github.com/celino3x)
 
 
+## Funcionalidades
 
+- Cadastrar Visitante
+- Máscara ao digitar CPF
+- Inclusão de Imagem
+- Visualizar dados cadastrados de Visitantes
+
+## Screenshots
+![Tela de Cadastro](https://user-images.githubusercontent.com/8905515/217315687-471434cc-0ae8-4980-8b14-6c9ef6fab8bb.PNG)
+
+![Consulta de Visitantes](https://user-images.githubusercontent.com/8905515/217315740-1cc1abac-f541-45f6-8a0c-315e210c05a3.PNG)
+
+
+## Aprendizados
+
+A simple way to include images and not overpopulate the database with images.
