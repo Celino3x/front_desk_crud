@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Front Desk | CRUD</title>
+    <title>Editar Visitante</title>
 </head>
 <body>
-    <section class="label container g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sw h-md-250 position-relative">
+<section class="label container g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sw h-md-250 position-relative">
         <div>
             <h3>Cadastro de Visitante</h3>
         </div>
@@ -78,21 +78,18 @@
 
             }
 
-
-
-            
         /* Máscara TELEFONE*/
-        const tel = document.getElementById('telefone_visitante') // Seletor do campo de telefone
+            const tel = document.getElementById('telefone_visitante') // Seletor do campo de telefone
 
-        tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value)) // Dispara quando digitado no campo
-        tel.addEventListener('change', (e) => mascaraTelefone(e.target.value)) // Dispara quando autocompletado o campo
+            tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value)) // Dispara quando digitado no campo
+            tel.addEventListener('change', (e) => mascaraTelefone(e.target.value)) // Dispara quando autocompletado o campo
 
-        const mascaraTelefone = (valor) => {
-            valor = valor.replace(/\D/g, "")
-            valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
-            valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
-            tel.value = valor // Insere o(s) valor(es) no campo
-        }
+            const mascaraTelefone = (valor) => {
+                valor = valor.replace(/\D/g, "")
+                valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+                valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+                tel.value = valor // Insere o(s) valor(es) no campo
+            }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
