@@ -11,7 +11,7 @@
 <body>
     <section class="label container g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sw h-md-250 position-relative">
         <div>
-            <h3>Cadastro de Visitante</h3>
+            <h3>Editar de Visitante</h3>
         </div>
 
     <form action="_inserir_visitante.php" method="POST" class="form_cad" enctype="multipart/form-data">
