@@ -1,8 +1,8 @@
 <?php
-  $mysqli = mysqli_init();
-  $mysqli->ssl_set(NULL, NULL, "/etc/ssl/certs/ca-certificates.crt", NULL, NULL);
-  $mysqli->real_connect($_ENV["HOST"], $_ENV["USERNAME"], $_ENV["PASSWORD"], $_ENV["DATABASE"]);
-  $mysqli->close();
+    $mysqli = mysqli_init();
+    $mysqli->ssl_set(NULL, NULL, "/etc/ssl/certs/ca-certificates.crt", NULL, NULL);
+    $mysqli->real_connect($_ENV["us-east.connect.psdb.cloud"], $_ENV["4mon01d2c7rdz5cb1pbr"], $_ENV["pscale_pw_nJMs6RmrRaSToA3dNHOKilZQtBEXQyIIbxi63XGAtqE"], $_ENV["front_desk"]);
+    $mysqli->close();
 ?>
 
 <!DOCTYPE html>
